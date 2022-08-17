@@ -32,6 +32,7 @@ console.log(findFloor([1, 2, 8, 10, 10, 12, 19], 9)); // 8
 console.log(findFloor([1, 2, 8, 10, 10, 12, 19], 20)); // 19
 console.log(findFloor([1, 2, 8, 10, 10, 12, 19], 0)); // -1
 console.log(findFloor([12, 454, 565, 654, 765, 876, 987], 454)); // 454
+console.log(findFloor([12, 453, 565, 654, 765, 876, 987], 454)); // 453 
 console.log(findFloor([12, 454, 565, 654, 765, 876, 987], 0)); // -1
 
 module.exports = findFloor;
